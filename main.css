@@ -1,0 +1,25 @@
+/*p {*/
+/*  color: peachpuff;  */
+/*  background-color: dodgerblue;*/
+/*}*/
+
+.hotshot {
+    border-width: 10px;
+    border-style: groove;
+    border-color: burlywood;
+}
+
+#main {
+    background-color: blanchedalmond;
+}
+
+.hotshot > span {
+    color: purple;
+    margin: 20px;
+}
+
+/* element  class  id */
+/*    2        0    0 */
+/*    0        1    0*/
+/*  id takes precedence   */
+/* inline takes prededence over all*/
