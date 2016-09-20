@@ -1,11 +1,11 @@
 /* ADD YOUR STYLES HERE */
 
 
-.table {
+.names {
     width:100%;
 }
 
-.table th, td {
+.names th, td {
 	border-bottom: 1px;
 	border-color: #ddd;
 	padding: 15px;
@@ -42,6 +42,11 @@
 .graph div, th {
 	padding: 5px;
 	border-bottom: none;
+}
+
+.graph td {
+	border-bottom-style: none;
+	padding: 1px;
 }
 
 .cupcake img {
