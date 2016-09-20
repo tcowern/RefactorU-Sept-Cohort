@@ -1,1 +1,59 @@
 /* ADD YOUR STYLES HERE */
+
+
+.table {
+    width:100%;
+}
+
+.table th, td {
+	border-bottom: 1px;
+	border-color: #ddd;
+	padding: 15px;
+	border-bottom-style: solid;
+}
+
+
+.statstable {
+    display:table;
+    width: 50%;
+}
+.statsnumbers {
+    font-size: xx-large;
+}
+.statslabels {
+    font-size: xx-small;
+    color: rgb(169, 169, 169)
+}
+.graph {
+	width: 100%;
+
+}
+.graph th {
+	text-align: right;
+	width: 15%;
+}
+
+.graph div {
+	color: white;
+	font-weight: bold;
+	background-color: #0000ff;
+}
+
+.graph div, th {
+	padding: 5px;
+	border-bottom: none;
+}
+
+.cupcake img {
+	float: left;
+	margin-right: 10px;
+
+}
+
+.cupcaketitle {
+	margin-left: 60px;
+}
+
+/*.cupcake h2, p {*/
+/*	margin-left: 55px;*/
+/*}*/
