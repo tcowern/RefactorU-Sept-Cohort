@@ -1,1 +1,156 @@
 /* ADD YOUR STYLES HERE */
+
+#container {
+    position: relative;
+    width: auto;
+}
+
+.oncenterimg{
+    padding: 25px;
+    vertical-align: top; 
+    display: inline-block;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+
+.onverticalimg {
+    padding-bottom: 75px;
+    padding-top: 75px;
+    vertical-align: middle;
+    display: inline-block;
+    /*box-sizing: padding-box;*/
+    justify-content: top;
+    position: relative;
+}
+
+.horizontry ul {
+  list-style: none;
+  margin: auto;
+  padding: 0%;
+  float: left;
+   
+}
+.horizontry li {
+  display: inline-block;
+}
+
+.buttonlg {
+    background-color: #ff6699; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    border-radius: 4px;
+}
+
+.buttonmd {
+    background-color: #ff6699; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.buttonsm {
+    background-color: #ff6699; /* Green */
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 4px;
+}
+
+.buttonall {
+    background-color: #ff6699; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 36px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 4px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    /*margin: 0;*/
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff6699;
+    border-radius: 4px;
+    width: 600px;
+    /*padding: 20px;*/
+}
+
+.navbar li {
+    float: left;
+    padding: 10px 35px 10px 35px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    /*padding-left: 70px;*/
+    /*padding-bottom: 10px;*/
+    /*padding-top: 10px;*/
+    /*padding-right: 0px;*/
+}
+
+.navbar li a:hover {
+    background-color: #ff3300;
+}
+
+.pagination {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination li {
+    display: inline;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.pagination li a {
+    background-color: #ffffff;
+    color: #ff3300;
+    border-bottom: dashed;
+
+}
+
+/*.navbar {*/
+/*    height: 40px;*/
+/*    width: auto;*/
+/*    background-color: #ff6699;*/
+/*    position: static;*/
+/*    top: auto;*/
+/*    border-radius: 4px;*/
+/*}*/
+
+/*.navbar li {*/
+/*  display: inline-block;*/
+/*  padding: auto;*/
+/*  vertical-align: middle;*/
+/*  color: white;*/
+/*}*/
